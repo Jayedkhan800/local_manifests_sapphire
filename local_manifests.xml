@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Remotes -->
+  <remote name="Jayedkhan800" fetch="https://github.com/Jayedkhan800" />
+  <remote name="los" fetch="https://github.com/LineageOS" />
+  
+  <!-- Device Trees -->
+  <project path="device/xiaomi/sapphire" name="android_device_xiaomi_sapphire" remote="Jayedkhan800" revision="lineage-22.2" />
+
+  <!-- SELinux policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-22.2" />
+
+  <!-- kernel tree -->
+  <project path="device/xiaomi/sapphire-kernel" name="device_xiaomi_sapphire-kernel" remote="Jayedkhan800" revision="lineage-22.2">
+    <linkfile src="headers" dest="kernel/xiaomi/sapphire" />
+  </project>
+
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/sapphire" name="proprietary_vendor_xiaomi_sapphire" remote="Jayedkhan800" revision="lineage-22.2" />
+
+</manifest>
