@@ -13,7 +13,7 @@
 
   <!-- kernel tree -->
   <project path="device/xiaomi/sapphire-kernel" name="device_xiaomi_sapphire-kernel" remote="Jayedkhan800" revision="lineage-22.2">
-    <linkfile src="headers" dest="kernel/xiaomi/sapphire" />
+    <linkfile src="headers" dest="kernel/xiaomi/kernel-sapphire" />
   </project>
 
   <!-- Vendor Trees -->
